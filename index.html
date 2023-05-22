@@ -17,17 +17,18 @@
         margin-left: 4px;
         font-size: 20px;
     }
-    #nav {
+     /* #nav {
       margin-left: 15rem;
-    }
+    }*/
     #nav1{
-      margin-left: 28rem;
-    }
+      margin-left: 15rem;
+      position:relative;
+    }  
   </style>
 </head>
   <body>
 <!-- Nav  here -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-md">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-md">
         <div class="container-fluid">
           <a class="navbar-brand border-info" href="#">
             <span class="fa-stack fa-lg">  
@@ -41,16 +42,16 @@
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> -->
           
 
           
           <!-- Social Icons -->
         
-          <div class="collapse navbar-collapse " id="#navbarSupportedContent">
+          <!-- <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0" id="nav1">
               <li class="nav-item ">
-                <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+               <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link active " href="#mywork">Project</a>
@@ -58,12 +59,12 @@
             
               <li class="nav-item">
                 <a class="nav-link active text-dark" href="#contact">Contact me</a>
-              </li>
-            </ul>
+              </li> 
+            </ul> -->
             
         
 <!-- Social Icons -->
-<span class="d-flex  " id="nav"> 
+<!-- <span class="d-flex  " id="nav"> 
 <a class=" " href="linkedin.com/in/lateef-olawale-olaosebikan" target="_blank">
   <span class="fa-stack fa-lg text-dark">  
       <i class="fa-brands fa-linkedin"></i>
@@ -91,8 +92,45 @@
               
           </div>
         </div>
-      </nav>
+      </nav> -->
 <!-- Nav ends here -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <span class="fa-stack fa-lg">  
+        <i class="fa fa-square-o fa-stack-4x "></i>
+        <i class="fa-solid fa-l  fa-stack-2x fs-2 text-danger"></i>
+    </span>
+    <span class="fa-stack fa-lg">  
+        <i class="fa fa-square-o fa-stack-4x"></i>
+        <i class="fa-solid fa-o fa-stack-2x fs-2 text-danger"></i>
+    </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+        
+       
+      </ul>
+      <form class="d-flex" role="search">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <li class="nav-item ">
+            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+           </li>
+           <li class="nav-item ">
+             <a class="nav-link active " href="#mywork">Project</a>
+           </li>
+         
+           <li class="nav-item">
+             <a class="nav-link active text-dark" href="#contact">Contact me</a>
+           </li> 
+      </form>
+    </div>
+  </div>
+</nav>
+
       <!-- Section begins -->
  <section class="home">
         <div class="container-lg">
@@ -108,7 +146,7 @@
                 <h1 class="fs-1 text-danger text-uppercase mt-2 fw-bold" > web developer</h1>
                 <p class="display-6 mt-2">Lateef Olaosebikan</p>
                 <p class="mt-2">I help clients to solve their business problems and create a meaningful solution that
-                  can be used to solve the problem.</p>
+                  can be used to solve their problem.</p>
                   <a href="#mywork" class="btn btn-danger p-2 mt-3">My work</a>
               </div>
             </div>
@@ -152,7 +190,9 @@
                 </span>
                 </div>
               </div>
-              <button class="btn btn-danger">Download CV</button>
+                <button class="btn btn-danger">
+                  <a href="https://drive.google.com/file/d/17k5o7gyHA-EqWl5cookjsFTMZblAX7U0/view?usp=sharing" style="text-decoration: none; color: white;" target="_blank">Download CV</a>
+                </button>
             </div>
 
             <div class="col-md-6 mt-4">
@@ -205,26 +245,26 @@
             </div>
               <div class="row mt-4">
                 <div class="col-md-4 ">
-                  <div class="card text-center shadow-lg" id="whatIDo">
+                  <div class="card text-center shadow-lg my-5" id="whatIDo">
                     <div class="card-logo">
                       <span class="fa-stack fa-2x text-danger">  
                         <i class="fa-solid fa-terminal"></i>
                     </span>
                     </div>
-                    <div class="card-body" >
+                    <div class="card-body " >
                       <h5 class="card-title">Web Development</h5>
                       <p class="card-text">I help clients to provide solution to their business problems.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card text-center shadow-lg" id="whatIDo1">
+                  <div class="card text-center shadow-lg my-5" id="whatIDo1">
                     <div class="card-logo">
                       <span class="fa-stack fa-2x text-danger">  
                         <i class="fa-solid fa-question"></i>
                     </span>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body ">
                       <h5 class="card-title">Technical Support</h5>
                       <p class="card-text">I help Microsoft customers to solve their technical problems, and 
                         assist to understand Dynamics 365 Environment.</p>
@@ -232,7 +272,7 @@
                   </div>
                 </div>
             
-                <div class="col-md-4">
+                <div class="col-md-4 my-5">
                   <div class="card text-center shadow-lg" id="whatIDo2">
                     <div class="card-logo">
                       <span class="fa-stack fa-2x text-danger">  
@@ -263,7 +303,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-md-4">
-                <div class="card shadow-lg" style="width: 18rem;"  id="myWork" >
+                <div class="card shadow-lg my-3 mx-3" style="width: 18rem;"  id="myWork" >
                   <img src="image/dashboard.PNG" class="card-img-top" alt="dashboard">
                   <div class="card-body" >
                     <h5 class="card-title">An inventory dashboard</h5>
@@ -272,7 +312,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card shadow-lg" style="width: 18rem;" id="myWork1">
+                <div class="card shadow-lg my-3 mx-3" style="width: 18rem;" id="myWork1">
                   <img src="image/twitter_prct.PNG" class="card-img-top" alt="twitter">
                   <div class="card-body">
                     <h5 class="card-title">Twitter login page</h5>
@@ -281,7 +321,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card shadow-lg" style="width: 18rem;" id="myWork2">
+                <div class="card shadow-lg my-3 mx-3" style="width: 18rem;" id="myWork2">
                   <img src="image/match.PNG" class="card-img-top" alt="Wedding">
                   <div class="card-body">
                     <h5 class="card-title">Wedding Registration website</h5>
@@ -369,9 +409,36 @@
 <!-- footer -->
 <footer>
 <div class="footer border-top py-3">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
+          <div class="col-md-6 text-center">
+            <span class=" "> 
+              <a class=" " href="linkedin.com/in/lateef-olawale-olaosebikan" target="_blank">
+                <span class="fa-stack fa-lg text-dark">  
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+              </a>
+              
+                <a class="" href="#" target="_blank">
+                    <span class="fa-stack fa-lg text-dark">  
+                        <i class="fa-brands fa-facebook"></i>
+                    </span>
+                  </a>
+                    <a class="" href="https://github.com/OlaosebikanLateef" target="_blank">
+                      <span class="fa-stack fa-lg text-dark">  
+                          <i class="fa-brands fa-github"></i>
+                      </span>
+                    </a>
+                 
+                  <a class="" href="https://twitter.com/Ogbeni_Lateef" target="_blank">
+                    <span class="fa-stack fa-lg text-dark">  
+                        <i class="fa-brands fa-twitter"></i>
+                    </span>
+                  </a>
+                 
+                </span>
+          </div>
+            <div class="col-md-5">
                 <p class="text-center text-muted mb-0">&copy;  Designed By Lateef</p>
             </div>
         </div>
